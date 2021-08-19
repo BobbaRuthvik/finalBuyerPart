@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">optVerification</string>
+    <string name="we_will_send_you_a_one_time_otp_on_this_given_mobile_number">We will send you a one time otp on this given mobile number</string>
+    <string name="enter_mobile_number">Enter Mobile number</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="_91">+91</string>
+    <string name="_8889996633">8889996633</string>
+    <string name="get_otp">Get Otp</string>
+    <string name="please_enter_the_otp_sent_to_you">Please Enter the OTP sent to you</string>
+    <string name="submit">Submit</string>
+    <string name="didn_t_receive_the_otp">Didn\'t receive the otp</string>
+    <string name="resend_otp_again">RESEND OTP AGAIN</string>
+    <string name="appz_name">Appz name</string>
+</resources>
