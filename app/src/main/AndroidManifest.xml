@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OptVerification">
         <activity
+            android:name=".homeScreen"
+            android:exported="true" />
+        <activity
             android:name=".dashboard"
             android:exported="true" />
         <activity

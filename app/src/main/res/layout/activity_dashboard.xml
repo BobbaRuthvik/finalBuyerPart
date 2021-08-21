@@ -4,12 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".dashboard"
-    android:gravity="center">
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".dashboard">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/sellerbutton"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Welcome to dashboard"/>
+        android:layout_margin="30dp"
+        android:background="@color/color_view"
+        android:text="@string/seller"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buyerbutton"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginTop="-400dp"
+        android:background="@color/color_view"
+        android:text="@string/buyer"
+        android:textColor="@color/colortextsecond"
+        android:textStyle="bold" />
 
 </LinearLayout>

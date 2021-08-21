@@ -11,4 +11,6 @@
     <string name="didn_t_receive_the_otp">Didn\'t receive the otp</string>
     <string name="resend_otp_again">RESEND OTP AGAIN</string>
     <string name="appz_name">Appz name</string>
+    <string name="seller">Seller</string>
+    <string name="buyer">BUYER</string>
 </resources>

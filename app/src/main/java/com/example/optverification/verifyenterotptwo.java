@@ -16,18 +16,21 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseException;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.concurrent.TimeUnit;
 
 public class verifyenterotptwo extends AppCompatActivity {
 
     EditText inputnumber1, inputnumber2, inputnumber3, inputnumber4, inputnumber5, inputnumber6;
-    String getotpbackend;
+    String getotpbackend, mobileNumber;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,8 +80,9 @@ public class verifyenterotptwo extends AppCompatActivity {
                                         verifybuttonclick.setVisibility(View.VISIBLE);
 
                                         if (task.isSuccessful()) {
+                                            mobileNumber = getIntent().getStringExtra("mobile");
                                             Intent intent = new Intent(getApplicationContext(), dashboard.class);
-                                            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                                            intent.putExtra("mobileNumber", mobileNumber);
                                             startActivity(intent);
                                         } else {
                                             Toast.makeText(verifyenterotptwo.this, "Enter correct Otp", Toast.LENGTH_SHORT).show();
