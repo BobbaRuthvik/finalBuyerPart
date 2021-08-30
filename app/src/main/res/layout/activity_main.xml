@@ -15,10 +15,10 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
             android:layout_marginTop="90dp"
-            android:src="@drawable/otp1" />
+            android:src="@drawable/logo1" />
 
         <TextView
             android:id="@+id/textView"
@@ -105,7 +105,7 @@
                 android:layout_margin="30dp"
                 android:textColor="@color/colortextfirst"
                 android:textStyle="bold"
-                android:background="@drawable/backgroundbutton"/>
+                android:background="#2DCCA9"/>
 
             <ProgressBar
                 android:id="@+id/progressbar_sending_otp"

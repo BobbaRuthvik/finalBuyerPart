@@ -36,7 +36,7 @@ public class dashboard extends AppCompatActivity {
             public void onClick(View view) {
                 phoneNumber = getIntent().getStringExtra("mobileNumber");
                 storeNewBuyerData();
-                Intent intent = new Intent(getApplicationContext(), homeScreen.class);
+                Intent intent = new Intent(getApplicationContext(), MainActivity11.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(intent);
             }

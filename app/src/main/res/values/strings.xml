@@ -13,4 +13,8 @@
     <string name="appz_name">Appz name</string>
     <string name="seller">Seller</string>
     <string name="buyer">BUYER</string>
+    <string name="when_you_refuse_to_reuse_it_s_the_earth_you_abuse">WHEN YOU REFUSE TO REUSE IT\'S THE EARTH YOU ABUSE</string>
+    <string name="bonjour_buyer">Bonjour Buyer</string>
+    <string name="cart">Cart</string>
+    <string name="please_select_your_field_of_interest">Please Select your Field of Interest</string>
 </resources>
