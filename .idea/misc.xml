@@ -3,12 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/BOBBA RUTHVIK/AndroidStudioProjects/optVerification/app/src/main/res/drawable/background.xml" value="0.21614583333333334" />
         <entry key="..\:/Users/BOBBA RUTHVIK/AndroidStudioProjects/optVerification/app/src/main/res/drawable/backgroundbox.xml" value="0.21614583333333334" />
         <entry key="..\:/Users/BOBBA RUTHVIK/AndroidStudioProjects/optVerification/app/src/main/res/drawable/backgroundbutton.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/BOBBA RUTHVIK/AndroidStudioProjects/optVerification/app/src/main/res/drawable/roundstyle.xml" value="0.21614583333333334" />
         <entry key="..\:/Users/BOBBA RUTHVIK/AndroidStudioProjects/optVerification/app/src/main/res/layout/activity_dashboard.xml" value="0.2" />
         <entry key="..\:/Users/BOBBA RUTHVIK/AndroidStudioProjects/optVerification/app/src/main/res/layout/activity_home_screen.xml" value="0.1859375" />
         <entry key="..\:/Users/BOBBA RUTHVIK/AndroidStudioProjects/optVerification/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/BOBBA RUTHVIK/AndroidStudioProjects/optVerification/app/src/main/res/layout/activity_main11.xml" value="0.22" />
+        <entry key="..\:/Users/BOBBA RUTHVIK/AndroidStudioProjects/optVerification/app/src/main/res/layout/activity_main2.xml" value="0.2" />
+        <entry key="..\:/Users/BOBBA RUTHVIK/AndroidStudioProjects/optVerification/app/src/main/res/layout/activity_main3.xml" value="0.2" />
+        <entry key="..\:/Users/BOBBA RUTHVIK/AndroidStudioProjects/optVerification/app/src/main/res/layout/activity_main_activitya.xml" value="0.2" />
         <entry key="..\:/Users/BOBBA RUTHVIK/AndroidStudioProjects/optVerification/app/src/main/res/layout/activity_verifyenterotptwo.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/BOBBA RUTHVIK/AndroidStudioProjects/optVerification/app/src/main/res/layout/message_item.xml" value="0.2" />
       </map>
     </option>
   </component>
